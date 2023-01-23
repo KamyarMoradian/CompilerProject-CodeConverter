@@ -12,10 +12,11 @@ def main(input_text):
     stream = CommonTokenStream(lexer)
     parser = XMLParser(stream)
     document_ctx = parser.document()
-    feature_tree_getter = FeatureTreeGetter()
-    feature_tree_getter.visitDocument(document_ctx)
-    print(feature_tree_getter.feature_tree)
-    print(feature_tree_getter.feature_tree[0].attribute()[0].Name().getText())
+    # test first phase
+    # feature_tree_getter = FeatureTreeGetter()
+    # feature_tree_getter.visitDocument(document_ctx)
+    # print(feature_tree_getter.feature_tree)
+    # print(feature_tree_getter.feature_tree[0].attribute()[0].Name().getText())
 
 
 if __name__ == '__main__':
