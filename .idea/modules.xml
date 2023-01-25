@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Project-Code.iml" filepath="$PROJECT_DIR$/.idea/Project-Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CompilerProject-XML-to-Python-Converter.iml" filepath="$PROJECT_DIR$/.idea/CompilerProject-XML-to-Python-Converter.iml" />
     </modules>
   </component>
 </project>

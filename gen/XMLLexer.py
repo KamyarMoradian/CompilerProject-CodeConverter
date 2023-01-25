@@ -1,4 +1,4 @@
-# Generated from C:/Users/Kamyar/Documents/Uni/Compiler/Project/Project-Code/Grammar\XMLLexer.g4 by ANTLR 4.11.1
+# Generated from /home/sobhan/Desktop/university/compiler/finalproject/grammer/XMLLexer.g4 by ANTLR 4.11.1
 from antlr4 import *
 from io import StringIO
 import sys

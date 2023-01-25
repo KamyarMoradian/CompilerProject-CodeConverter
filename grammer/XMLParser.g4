@@ -31,7 +31,7 @@ parser grammar XMLParser;
 
 options { tokenVocab=XMLLexer; }
 
-document    :   prolog? misc* element misc* EOF ;
+document    :   prolog? misc* element misc*;
 
 prolog      :   XMLDeclOpen attribute* SPECIAL_CLOSE ;
 

@@ -1,4 +1,4 @@
-# Generated from C:/Users/Kamyar/Documents/Uni/Compiler/Project/Project-Code/Grammar\XMLParser.g4 by ANTLR 4.11.1
+# Generated from /home/sobhan/Desktop/university/compiler/finalproject/grammer/XMLParser.g4 by ANTLR 4.11.1
 # encoding: utf-8
 from antlr4 import *
 from io import StringIO
@@ -10,38 +10,37 @@ else:
 
 def serializedATN():
     return [
-        4,1,18,98,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,18,96,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,1,0,3,0,18,8,0,1,0,5,0,21,8,0,10,0,12,0,24,9,0,1,0,1,0,
-        5,0,28,8,0,10,0,12,0,31,9,0,1,0,1,0,1,1,1,1,5,1,37,8,1,10,1,12,1,
-        40,9,1,1,1,1,1,1,2,3,2,45,8,2,1,2,1,2,1,2,1,2,1,2,3,2,52,8,2,1,2,
-        3,2,55,8,2,5,2,57,8,2,10,2,12,2,60,9,2,1,3,1,3,1,3,5,3,65,8,3,10,
-        3,12,3,68,9,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,5,3,80,8,3,
-        10,3,12,3,83,9,3,1,3,3,3,86,8,3,1,4,1,4,1,5,1,5,1,5,1,5,1,6,1,6,
-        1,7,1,7,1,7,0,0,8,0,2,4,6,8,10,12,14,0,3,1,0,4,5,2,0,6,6,9,9,3,0,
-        1,1,6,6,18,18,103,0,17,1,0,0,0,2,34,1,0,0,0,4,44,1,0,0,0,6,85,1,
-        0,0,0,8,87,1,0,0,0,10,89,1,0,0,0,12,93,1,0,0,0,14,95,1,0,0,0,16,
-        18,3,2,1,0,17,16,1,0,0,0,17,18,1,0,0,0,18,22,1,0,0,0,19,21,3,14,
-        7,0,20,19,1,0,0,0,21,24,1,0,0,0,22,20,1,0,0,0,22,23,1,0,0,0,23,25,
-        1,0,0,0,24,22,1,0,0,0,25,29,3,6,3,0,26,28,3,14,7,0,27,26,1,0,0,0,
-        28,31,1,0,0,0,29,27,1,0,0,0,29,30,1,0,0,0,30,32,1,0,0,0,31,29,1,
-        0,0,0,32,33,5,0,0,1,33,1,1,0,0,0,34,38,5,8,0,0,35,37,3,10,5,0,36,
-        35,1,0,0,0,37,40,1,0,0,0,38,36,1,0,0,0,38,39,1,0,0,0,39,41,1,0,0,
-        0,40,38,1,0,0,0,41,42,5,11,0,0,42,3,1,0,0,0,43,45,3,12,6,0,44,43,
-        1,0,0,0,44,45,1,0,0,0,45,58,1,0,0,0,46,52,3,6,3,0,47,52,3,8,4,0,
-        48,52,5,2,0,0,49,52,5,18,0,0,50,52,5,1,0,0,51,46,1,0,0,0,51,47,1,
-        0,0,0,51,48,1,0,0,0,51,49,1,0,0,0,51,50,1,0,0,0,52,54,1,0,0,0,53,
-        55,3,12,6,0,54,53,1,0,0,0,54,55,1,0,0,0,55,57,1,0,0,0,56,51,1,0,
-        0,0,57,60,1,0,0,0,58,56,1,0,0,0,58,59,1,0,0,0,59,5,1,0,0,0,60,58,
-        1,0,0,0,61,62,5,7,0,0,62,66,5,16,0,0,63,65,3,10,5,0,64,63,1,0,0,
-        0,65,68,1,0,0,0,66,64,1,0,0,0,66,67,1,0,0,0,67,69,1,0,0,0,68,66,
-        1,0,0,0,69,70,5,10,0,0,70,71,3,4,2,0,71,72,5,7,0,0,72,73,5,13,0,
-        0,73,74,5,16,0,0,74,75,5,10,0,0,75,86,1,0,0,0,76,77,5,7,0,0,77,81,
-        5,16,0,0,78,80,3,10,5,0,79,78,1,0,0,0,80,83,1,0,0,0,81,79,1,0,0,
-        0,81,82,1,0,0,0,82,84,1,0,0,0,83,81,1,0,0,0,84,86,5,12,0,0,85,61,
-        1,0,0,0,85,76,1,0,0,0,86,7,1,0,0,0,87,88,7,0,0,0,88,9,1,0,0,0,89,
-        90,5,16,0,0,90,91,5,14,0,0,91,92,5,15,0,0,92,11,1,0,0,0,93,94,7,
-        1,0,0,94,13,1,0,0,0,95,96,7,2,0,0,96,15,1,0,0,0,11,17,22,29,38,44,
-        51,54,58,66,81,85
+        5,0,28,8,0,10,0,12,0,31,9,0,1,1,1,1,5,1,35,8,1,10,1,12,1,38,9,1,
+        1,1,1,1,1,2,3,2,43,8,2,1,2,1,2,1,2,1,2,1,2,3,2,50,8,2,1,2,3,2,53,
+        8,2,5,2,55,8,2,10,2,12,2,58,9,2,1,3,1,3,1,3,5,3,63,8,3,10,3,12,3,
+        66,9,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,5,3,78,8,3,10,3,12,
+        3,81,9,3,1,3,3,3,84,8,3,1,4,1,4,1,5,1,5,1,5,1,5,1,6,1,6,1,7,1,7,
+        1,7,0,0,8,0,2,4,6,8,10,12,14,0,3,1,0,4,5,2,0,6,6,9,9,3,0,1,1,6,6,
+        18,18,101,0,17,1,0,0,0,2,32,1,0,0,0,4,42,1,0,0,0,6,83,1,0,0,0,8,
+        85,1,0,0,0,10,87,1,0,0,0,12,91,1,0,0,0,14,93,1,0,0,0,16,18,3,2,1,
+        0,17,16,1,0,0,0,17,18,1,0,0,0,18,22,1,0,0,0,19,21,3,14,7,0,20,19,
+        1,0,0,0,21,24,1,0,0,0,22,20,1,0,0,0,22,23,1,0,0,0,23,25,1,0,0,0,
+        24,22,1,0,0,0,25,29,3,6,3,0,26,28,3,14,7,0,27,26,1,0,0,0,28,31,1,
+        0,0,0,29,27,1,0,0,0,29,30,1,0,0,0,30,1,1,0,0,0,31,29,1,0,0,0,32,
+        36,5,8,0,0,33,35,3,10,5,0,34,33,1,0,0,0,35,38,1,0,0,0,36,34,1,0,
+        0,0,36,37,1,0,0,0,37,39,1,0,0,0,38,36,1,0,0,0,39,40,5,11,0,0,40,
+        3,1,0,0,0,41,43,3,12,6,0,42,41,1,0,0,0,42,43,1,0,0,0,43,56,1,0,0,
+        0,44,50,3,6,3,0,45,50,3,8,4,0,46,50,5,2,0,0,47,50,5,18,0,0,48,50,
+        5,1,0,0,49,44,1,0,0,0,49,45,1,0,0,0,49,46,1,0,0,0,49,47,1,0,0,0,
+        49,48,1,0,0,0,50,52,1,0,0,0,51,53,3,12,6,0,52,51,1,0,0,0,52,53,1,
+        0,0,0,53,55,1,0,0,0,54,49,1,0,0,0,55,58,1,0,0,0,56,54,1,0,0,0,56,
+        57,1,0,0,0,57,5,1,0,0,0,58,56,1,0,0,0,59,60,5,7,0,0,60,64,5,16,0,
+        0,61,63,3,10,5,0,62,61,1,0,0,0,63,66,1,0,0,0,64,62,1,0,0,0,64,65,
+        1,0,0,0,65,67,1,0,0,0,66,64,1,0,0,0,67,68,5,10,0,0,68,69,3,4,2,0,
+        69,70,5,7,0,0,70,71,5,13,0,0,71,72,5,16,0,0,72,73,5,10,0,0,73,84,
+        1,0,0,0,74,75,5,7,0,0,75,79,5,16,0,0,76,78,3,10,5,0,77,76,1,0,0,
+        0,78,81,1,0,0,0,79,77,1,0,0,0,79,80,1,0,0,0,80,82,1,0,0,0,81,79,
+        1,0,0,0,82,84,5,12,0,0,83,59,1,0,0,0,83,74,1,0,0,0,84,7,1,0,0,0,
+        85,86,7,0,0,0,86,9,1,0,0,0,87,88,5,16,0,0,88,89,5,14,0,0,89,90,5,
+        15,0,0,90,11,1,0,0,0,91,92,7,1,0,0,92,13,1,0,0,0,93,94,7,2,0,0,94,
+        15,1,0,0,0,11,17,22,29,36,42,49,52,56,64,79,83
     ]
 
 class XMLParser ( Parser ):
@@ -115,9 +114,6 @@ class XMLParser ( Parser ):
             return self.getTypedRuleContext(XMLParser.ElementContext,0)
 
 
-        def EOF(self):
-            return self.getToken(XMLParser.EOF, 0)
-
         def prolog(self):
             return self.getTypedRuleContext(XMLParser.PrologContext,0)
 
@@ -186,8 +182,6 @@ class XMLParser ( Parser ):
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 32
-            self.match(XMLParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -244,19 +238,19 @@ class XMLParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 34
+            self.state = 32
             self.match(XMLParser.XMLDeclOpen)
-            self.state = 38
+            self.state = 36
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==16:
-                self.state = 35
+                self.state = 33
                 self.attribute()
-                self.state = 40
+                self.state = 38
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 41
+            self.state = 39
             self.match(XMLParser.SPECIAL_CLOSE)
         except RecognitionException as re:
             localctx.exception = re
@@ -340,54 +334,54 @@ class XMLParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 44
+            self.state = 42
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==6 or _la==9:
-                self.state = 43
+                self.state = 41
                 self.chardata()
 
 
-            self.state = 58
+            self.state = 56
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,7,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 51
+                    self.state = 49
                     self._errHandler.sync(self)
                     token = self._input.LA(1)
                     if token in [7]:
-                        self.state = 46
+                        self.state = 44
                         self.element()
                         pass
                     elif token in [4, 5]:
-                        self.state = 47
+                        self.state = 45
                         self.reference()
                         pass
                     elif token in [2]:
-                        self.state = 48
+                        self.state = 46
                         self.match(XMLParser.CDATA)
                         pass
                     elif token in [18]:
-                        self.state = 49
+                        self.state = 47
                         self.match(XMLParser.PI)
                         pass
                     elif token in [1]:
-                        self.state = 50
+                        self.state = 48
                         self.match(XMLParser.COMMENT)
                         pass
                     else:
                         raise NoViableAltException(self)
 
-                    self.state = 54
+                    self.state = 52
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
                     if _la==6 or _la==9:
-                        self.state = 53
+                        self.state = 51
                         self.chardata()
 
              
-                self.state = 60
+                self.state = 58
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,7,self._ctx)
 
@@ -468,56 +462,56 @@ class XMLParser ( Parser ):
         self.enterRule(localctx, 6, self.RULE_element)
         self._la = 0 # Token type
         try:
-            self.state = 85
+            self.state = 83
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 61
+                self.state = 59
                 self.match(XMLParser.OPEN)
-                self.state = 62
+                self.state = 60
                 self.match(XMLParser.Name)
-                self.state = 66
+                self.state = 64
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==16:
-                    self.state = 63
+                    self.state = 61
                     self.attribute()
-                    self.state = 68
+                    self.state = 66
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 69
+                self.state = 67
                 self.match(XMLParser.CLOSE)
-                self.state = 70
+                self.state = 68
                 self.content()
-                self.state = 71
+                self.state = 69
                 self.match(XMLParser.OPEN)
-                self.state = 72
+                self.state = 70
                 self.match(XMLParser.SLASH)
-                self.state = 73
+                self.state = 71
                 self.match(XMLParser.Name)
-                self.state = 74
+                self.state = 72
                 self.match(XMLParser.CLOSE)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 76
+                self.state = 74
                 self.match(XMLParser.OPEN)
-                self.state = 77
+                self.state = 75
                 self.match(XMLParser.Name)
-                self.state = 81
+                self.state = 79
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==16:
-                    self.state = 78
+                    self.state = 76
                     self.attribute()
-                    self.state = 83
+                    self.state = 81
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 84
+                self.state = 82
                 self.match(XMLParser.SLASH_CLOSE)
                 pass
 
@@ -571,7 +565,7 @@ class XMLParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 87
+            self.state = 85
             _la = self._input.LA(1)
             if not(_la==4 or _la==5):
                 self._errHandler.recoverInline(self)
@@ -629,11 +623,11 @@ class XMLParser ( Parser ):
         self.enterRule(localctx, 10, self.RULE_attribute)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 89
+            self.state = 87
             self.match(XMLParser.Name)
-            self.state = 90
+            self.state = 88
             self.match(XMLParser.EQUALS)
-            self.state = 91
+            self.state = 89
             self.match(XMLParser.STRING)
         except RecognitionException as re:
             localctx.exception = re
@@ -684,7 +678,7 @@ class XMLParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 93
+            self.state = 91
             _la = self._input.LA(1)
             if not(_la==6 or _la==9):
                 self._errHandler.recoverInline(self)
@@ -743,7 +737,7 @@ class XMLParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 95
+            self.state = 93
             _la = self._input.LA(1)
             if not(((_la) & ~0x3f) == 0 and ((1 << _la) & 262210) != 0):
                 self._errHandler.recoverInline(self)
