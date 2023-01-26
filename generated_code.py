@@ -12,6 +12,7 @@ class Window(QWidget):
 		#my_object
 		my_object = QLCDNumber()
 		my_object.setStyleSheet('background-color:yellow; color:blue')
+		my_object.setDigitCount(5)
 		my_object.display('12:23')
 		layout.addWidget(my_object, 0, 1)
 

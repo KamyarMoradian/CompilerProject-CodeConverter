@@ -30,9 +30,12 @@ class CodeGenerator:
             for j in i.astTree:
                 func = j.func
                 if func in METHOD_LIB:
-                    if func == "overflow" or func == "setcount" or func == "display" or func == "style":
+                    if func == "overflow" or func == "setcount" or func == "display" or func == "style"\
+                            or func == "iconsize":
                         j.value = j.value[1:-1]
                     temp = "\t\t" + f"{i.root[1:-1]}." + METHOD_LIB[func] + j.value
+                    if func == "icon" or func == "iconsize":
+                        temp += "))\n"
                     if func == "overflow" or func == "setcount" or func == "display" or func == "style":
                         temp += ")\n"
                     self.output.write(temp)

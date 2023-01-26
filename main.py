@@ -1,7 +1,7 @@
 from antlr4 import *
 
-from QLCDNumber.ASTListener import XMLListenerToAst
-from QLCDNumber.FeatureTreeGetter import FeatureTreeGetter
+from QLCDNumber.ast_listener import XMLListenerToAst
+from QLCDNumber.feature_tree_getter import FeatureTreeGetter
 from QLCDNumber.code_generator import CodeGenerator
 from gen.XMLLexer import XMLLexer
 from gen.XMLParser import XMLParser
@@ -16,7 +16,9 @@ parser = XMLParser(stream)
 document_ctx = parser.document()
 feature_tree_getter = FeatureTreeGetter()
 feature_tree_getter.visitDocument(document_ctx)
-print(feature_tree_getter.feature_tree)
+for tree in feature_tree_getter.feature_tree:
+    print(tree.getText())
+print('-'*150)
 
 # Phase 2
 ast_list = []
