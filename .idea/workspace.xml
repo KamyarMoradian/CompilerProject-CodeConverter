@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="868310be-e8c4-4958-891d-293d0c8ad937" name="Changes" comment="Update files">
+    <list default="true" id="868310be-e8c4-4958-891d-293d0c8ad937" name="Changes" comment="Add footer and layout files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QLCDNumber/ASTListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/QLCDNumber/ASTListener.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCDNumber/code_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/QLCDNumber/code_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/footer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/input.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/layout.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674711264301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update phase 3">
+      <created>1674712255972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674712255972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add footer and layout files">
+      <created>1674712409613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674712409613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,10 +285,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update files" />
+    <MESSAGE value="Update phase 3" />
+    <MESSAGE value="Add footer and layout files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add footer and layout files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompilerProject_XML_to_Python_Converter$main.coverage" NAME="main Coverage Results" MODIFIED="1674636387291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Project_Code$main.coverage" NAME="main Coverage Results" MODIFIED="1674712215368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Code$main.coverage" NAME="main Coverage Results" MODIFIED="1674713386213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Code$generated_code.coverage" NAME="generated_code Coverage Results" MODIFIED="1674713391490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

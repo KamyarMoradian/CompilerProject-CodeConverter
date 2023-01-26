@@ -1,3 +1,5 @@
+
+
 app = QApplication(sys.argv)
 screen = Window()
 screen.show()

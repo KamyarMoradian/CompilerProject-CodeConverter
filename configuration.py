@@ -3,4 +3,5 @@ METHOD_LIB = {
     "setcount": "setDigitCount(",
     "getcount": "digitCount()",
     "display": "display(",
+    "style": "setStyleSheet(",
 }

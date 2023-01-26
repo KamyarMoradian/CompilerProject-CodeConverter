@@ -2,6 +2,8 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QSize
 from PyQt5.QtGui import QIcon
 import sys
+
+
 class Window(QWidget):
 	def __init__(self):
 		QWidget.__init__(self)
