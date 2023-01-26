@@ -23,8 +23,7 @@ class XMLListenerToAst(XMLParserListener):
         if str(ctx.Name()) == "init":
             self.init = str(ctx.STRING())
 
-
-        if str(ctx.Name()) == "objectName":
+        if str(ctx.Name()) == "objectname":
             self.root = str(ctx.STRING())
         else:
             temp.func = str(ctx.Name())
@@ -37,5 +36,5 @@ class XMLListenerToAst(XMLParserListener):
         for i in range(len(self.astTree)):
             print("|___________",
                   self.astTree[i].func, "--->", self.astTree[i].value)
-            if i != len(self.astTree)-1:
+            if i != len(self.astTree) - 1:
                 print("|")

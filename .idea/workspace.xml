@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="868310be-e8c4-4958-891d-293d0c8ad937" name="Changes" comment="Update main.py">
-      <change afterPath="$PROJECT_DIR$/QLCDNumber/FeatureTreeGetter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCDNumber/code_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CompilerProject-XML-to-Python-Converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompilerProject-XML-to-Python-Converter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="868310be-e8c4-4958-891d-293d0c8ad937" name="Changes" comment="Update files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASTListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/QLCDNumber/ASTListener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genereatedcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCDNumber/ASTListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/QLCDNumber/ASTListener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCDNumber/code_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/QLCDNumber/code_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.xml" beforeDir="false" afterPath="$PROJECT_DIR$/input.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactorRadioButton.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,6 +244,14 @@
       <workItem from="1674603640944" duration="2322000" />
       <workItem from="1674636051499" duration="2779000" />
     </task>
+    <task id="LOCAL-00001" summary="Update files">
+      <created>1674711264301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674711264301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,8 +268,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update files" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompilerProject_XML_to_Python_Converter$main.coverage" NAME="main Coverage Results" MODIFIED="1674636387291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Project_Code$main.coverage" NAME="main Coverage Results" MODIFIED="1674711227061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project_Code$main.coverage" NAME="main Coverage Results" MODIFIED="1674712215368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 METHOD_LIB = {
-    "text": "setText(",
-    "icon": "setIcon(QIcon(",
-    "iconsize": "setIconSize(QSize(",
-    "checked": "isChecked("
+    "overflow": "checkOverflow(",
+    "setcount": "setDigitCount(",
+    "getcount": "digitCount()",
+    "display": "display(",
 }

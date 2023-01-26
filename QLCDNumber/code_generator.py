@@ -11,35 +11,33 @@ class CodeGenerator:
         output = open(r"" + output_address, "a")
         self.output = output
 
-    def generate_code(self):
-        with open('layout.txt') as fh:
+    def print_file(self, address):
+        with open(address) as fh:
             layout_lines = fh.readlines()
         for line in layout_lines:
             self.output.write(line)
+
+    def generate_code(self):
+        self.print_file('layout.txt')
 
         counter = 1
         for i in self.asts_list:
             temp = "\t\t#" + i.root[1:-1] + "\n"
             self.output.write(temp)
             if "True" in i.init:
-                temp = f'\t\t{i.root[1:-1]} = QRadioButton()\n'
+                temp = f'\t\t{i.root[1:-1]} = QLCDNumber()\n'
             self.output.write(temp)
             for j in i.astTree:
                 func = j.func
                 if func in METHOD_LIB:
-                    if func == "iconsize" or func == "down":
+                    if func == "overflow" or func == "setcount" or func == "display":
                         j.value = j.value[1:-1]
                     temp = "\t\t" + f"{i.root[1:-1]}." + METHOD_LIB[func] + j.value
-                    if func == "icon" or func == "iconsize":
-                        temp += "))\n"
-                    else:
+                    if func == "overflow" or func == "setcount" or func == "display":
                         temp += ")\n"
                     self.output.write(temp)
-            temp = f"\t\tlayout.addWidget(radiobutton,0,{str(counter)})\n"
+            temp = f"\t\tlayout.addWidget({i.root[1:-1]},0,{str(counter)})\n"
             self.output.write(temp)
             counter += 1
 
-        with open('footer.txt') as fh:
-            layout_lines = fh.readlines()
-        for line in layout_lines:
-            self.output.write(line)
+        self.print_file('footer.txt')
