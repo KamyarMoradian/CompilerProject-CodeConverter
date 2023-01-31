@@ -1,3 +1,0 @@
-                                          objectName
-            text                    icon                 checked            iconSize
-           "test"                 "img.svg"               "True"              3,3
